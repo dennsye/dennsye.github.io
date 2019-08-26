@@ -54,10 +54,10 @@ p {
 <body>
 
 <ul>
-  <li><a class="active" href="#home">ABOUT</a></li>
-  <li><a href="#news">PORTFOLIO</a></li>
-  <li><a href="#contact">MUSIC</a></li>
-  <li><a href="#about">CONTACT</a></li>
+  <li><a class="active" href="#ABOUT">ABOUT</a></li>
+  <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+  <li><a href="#MUSIC">MUSIC</a></li>
+  <li><a href="#CONTACT">CONTACT</a></li>
 </ul>
 
 </body>
