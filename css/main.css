@@ -2,6 +2,13 @@
 <html>
 <head>
 <style>
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+  
+}
 body {
 	background-color: lavender;
 }
@@ -46,6 +53,27 @@ p {
 </head>
 <body>
 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Free as a Bird</h1>
+</div>
+
 <h1><em>Free as a Bird</em></h1>
 <p>Lonely as a whisper on a star chase, stare at the moon all day ★ Bright are the stars that shine, dark is the night </p>
 
@@ -59,6 +87,7 @@ p {
   <li><a href="#MUSIC">MUSIC</a></li>
   <li><a href="#CONTACT">CONTACT</a></li>
 </ul>
+
 
 </body>
 </html>
