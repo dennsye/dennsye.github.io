@@ -8,6 +8,7 @@
   text-align: center;
   padding: 20px;
   
+  
 }
 body {
 	background-color: mistyrose;
@@ -40,7 +41,7 @@ li a:hover {
 }
 
 h1 {
-  color: White;
+  color: RosyBrown;
   text-align: center;
    font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
@@ -48,7 +49,7 @@ h1 {
 p {
   font-family: timesnewroman;
   font-size: 20px;
-  color:white;
+  color:mintcream;
   text-align:center;
    font-family: "Georgia, serif"
 }
@@ -68,13 +69,14 @@ body {
   background-color: #8FBC8F;
   padding: 20px;
   text-align: center;
+ 
 }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1><i>Free as a Bird</i></h1>
+
 </div>
 
 <h1>WELCOME TO DENNY'S</h1>
