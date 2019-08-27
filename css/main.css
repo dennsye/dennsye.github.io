@@ -32,6 +32,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 
 li a:hover {
@@ -41,6 +42,7 @@ li a:hover {
 h1 {
   color: White;
   text-align: center;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 
 p {
@@ -48,6 +50,7 @@ p {
   font-size: 20px;
   color:white;
   text-align:center;
+   font-family: "Georgia, serif"
 }
 </style>
 </head>
@@ -74,15 +77,15 @@ body {
   <h1><i>Free as a Bird</i></h1>
 </div>
 
-<h1><em>Free as a Bird</em></h1>
-<p>Lonely as a whisper on a star chase, stare at the moon all day ★ Bright are the stars that shine, dark is the night </p>
+<h1>WELCOME TO DENNY'S</h1>
+<p>Lonely as a whisper on a star chase, stare at the moon all day <br>★</br> Bright are the stars that shine, dark is the night </p>
 
 </style>
 </head>
 <body>
 
 <ul>
-  <li style="font-size:120%;"><a class="active" href="/index.html">HONE</a></li>
+  <li style="font-size:120%;"><a class="active" href="/index.html">HOME</a></li>
   <li style="font-size:120%;"><a href="/ABOUT/index.html">ABOUT</a></li>
   <li style="font-size:120%;"><a href="/Work Portfolio/index.html">WORK</a></li>
   <li style="font-size:120%;"><a href="/travelgallery.html">MUSIC</a></li>
