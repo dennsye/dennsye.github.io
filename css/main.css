@@ -4,7 +4,7 @@
 <style>
 
 .header {
-  background-color: #F1F1F1;
+  background-color: #8FBC8F;
   text-align: center;
   padding: 20px;
   
@@ -18,7 +18,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FCC;
+  background-color: #8FBC8F;
   text-align: center;
 }
 
@@ -62,7 +62,7 @@ body {
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
+  background-color: #8FBC8F;
   padding: 20px;
   text-align: center;
 }
@@ -71,7 +71,7 @@ body {
 <body>
 
 <div class="header">
-  <h1>Free as a Bird</h1>
+  <h1><i>Free as a Bird</i></h1>
 </div>
 
 <h1><em>Free as a Bird</em></h1>
