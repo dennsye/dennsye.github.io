@@ -72,6 +72,145 @@ body {
   text-align: center;
 
 }
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.header {
+  background-color: #8FBC8F;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  
+  
+}
+body {
+	background-color: mistyrose;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8FBC8F;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 80px;
+  text-decoration: none;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+li a:hover {
+  background-color: #bc8f8f;
+}
+
+h1 {
+  color: RosyBrown;
+  text-align: center;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+p {
+  font-family: timesnewroman;
+  font-size: 20px;
+  color: DarkSeaGreen;
+  text-align:center;
+   font-family: "Georgia, serif"
+}
+</style>
+</head>
+<body>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #8FBC8F;
+  padding: 20px;
+  text-align: center;
+
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: RosyBrown;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: DarkSeaGreen;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: RosyBrown;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+
+</div>
+
+<h1>WELCOME TO DENNY'S</h1>
+<p>Lonely as a whisper on a star chase, stare at the moon all day <br>★</br> Bright are the stars that shine, dark is the night </p>
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li style="font-size:120%;"><a class="active" href="/index.html">HOME</a></li>
+  <li style="font-size:120%;"><a href="/ABOUT/index.html">ABOUT</a></li>
+  <li style="font-size:120%;"><a href="/Work Portfolio/index.html">WORK</a></li>
+  <li style="font-size:120%;"><a href="/Music.html">MUSIC</a></li>
+  <li style="font-size:120%;"><a href="/Contact/index.html">CONTACT</a></li>
+</ul>
+
+
+</body>
+</html>
+
 </style>
 </head>
 <body>
