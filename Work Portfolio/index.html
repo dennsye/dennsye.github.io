@@ -16,6 +16,20 @@ body {
   color: white;
   text-align: center;
 }
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
 <body>
@@ -42,9 +56,23 @@ body {
   <li style="font-size:120%"><a href="/Contact/index.html">CONTACT</a></li>
 </ul>
 </nav>
-		
+
+<h2>Two Equal Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
       <H1>WORK PORTFOLIO FOR AP COMPUTER SCIENCE PRINCIPLES</H1><hr>
 <iframe src="https://docs.google.com/a/campbell.k12.hi.us/document/d/e/2PACX-1vQQmPypRSiO02L4K-s_ZbP2ybrzMEUHLnjJ097tUO0_g-039I6v9KszVGl2MjXJnU5vQIf2Fvcf7Ky6/pub?embedded=true"></iframe>
 
 </body>
 </html>
+
