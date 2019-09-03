@@ -65,8 +65,8 @@ body {
 margin: 0;
 }
 
-.custom {
-  cursor="/Cursor.png", auto;
-}
+ a {
+        cursor: url("Cursor.png"), url("Cursor.png"), default;
+    }
 </style>
 </head>
