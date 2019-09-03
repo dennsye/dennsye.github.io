@@ -58,6 +58,7 @@ h1 {
 /* This makes the paragraph text I typed into my page in the style that I wanted it to be in*/
 p {
   font-size: 20px;
+  color: RosyBrown;
   color: DarkSeaGreen;
   text-align:center;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
