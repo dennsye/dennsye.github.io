@@ -65,6 +65,8 @@ body {
 margin: 0;
 }
 
-{cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur266.cur), auto !important;} /* End http://www.cursors-4u.com */
+.custom {
+  cursor="/Cursor.png", auto;
+}
 </style>
 </head>
