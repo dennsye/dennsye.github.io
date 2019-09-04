@@ -6,13 +6,13 @@
   background-color: #8FBC8F;
   text-align: center;
   padding: 20px;
-  color: MistyRose;
+  color: DarkSeaGreen;
 
 
 /*This makes the background for all of my pages on the website to have the pink color*/  
 }
 body {
-	background-color: mistyrose;
+	background-color: MistyRose;
 }
 
 /* This coding makes my navigation bar green*/
@@ -37,7 +37,7 @@ li a {
   text-align: center;
   padding: 6px 80px;
   text-decoration: none;
-   font-family:"Trebuchet MS", Helvetica, sans-serif;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 
 /* This makes the buttons turn brown whenever I hover over the options on my navigation bar*/
