@@ -33,7 +33,7 @@ li {
 /* This makes the text in the navigation bar have the white text with the font I wanted*/
 li a {
   display: block;
-  color: white;
+  color: MistyRose;
   text-align: center;
   padding: 6px 80px;
   text-decoration: none;
