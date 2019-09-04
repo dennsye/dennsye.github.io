@@ -33,7 +33,7 @@ li {
 /* This makes the text in the navigation bar have the white text with the font I wanted*/
 li a {
   display: block;
-  color: MistyRose;
+  color: White;
   text-align: center;
   padding: 6px 80px;
   text-decoration: none;
@@ -49,6 +49,7 @@ li a:hover {
 h1 {
   color: RosyBrown;
   text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 /* This makes the paragraph text I typed into my page in the style that I wanted it to be in*/
 p {
