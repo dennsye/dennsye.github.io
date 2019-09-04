@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html>
+<head>
 <style>
 
 /* The coding for the header allows it to look the way I want it with the color and symbols I wanted*/
@@ -6,18 +8,17 @@
   background-color: #8FBC8F;
   text-align: center;
   padding: 20px;
-  color: DarkSeaGreen;
-
-
-/*This makes the background for all of my pages on the website to have the pink color*/  
+  color: white;
+  
+/*This makes the background for all of my pages on the website to have the pink color*/   
 }
 body {
-	background-color: MistyRose;
+	background-color: mistyrose;
 }
 
 /* This coding makes my navigation bar green*/
 ul {
- list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -33,11 +34,11 @@ li {
 /* This makes the text in the navigation bar have the white text with the font I wanted*/
 li a {
   display: block;
-  color: White;
+  color: white;
   text-align: center;
   padding: 6px 80px;
   text-decoration: none;
-  font-family:"Trebuchet MS", Helvetica, sans-serif;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 
 /* This makes the buttons turn brown whenever I hover over the options on my navigation bar*/
@@ -49,16 +50,17 @@ li a:hover {
 h1 {
   color: RosyBrown;
   text-align: center;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
 
 /* This makes the paragraph text I typed into my page in the style that I wanted it to be in*/
 p {
+  font-family: timesnewroman;
   font-size: 20px;
-  color: DarkSeaGreen;
+  color: RosyBrown;
   text-align:center;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-family: "Georgia, serif"
 }
-
 </style>
 </head>
 <body>
@@ -66,11 +68,128 @@ p {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
-/* This makes the body text have no margins */
 body {
-margin: 0;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #8FBC8F;
+  padding: 20px;
+  text-align: center;
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.header {
+  background-color: #8FBC8F;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  
+  
+}
+body {
+	background-color: mistyrose;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8FBC8F;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 80px;
+  text-decoration: none;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+li a:hover {
+  background-color: #bc8f8f;
+}
+
+h1 {
+  color: RosyBrown;
+  text-align: center;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+p {
+  font-family: timesnewroman;
+  font-size: 20px;
+  color: DarkSeaGreen;
+  text-align:center;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 </style>
 </head>
+<body>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #8FBC8F;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #8fbc8f;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+
+</div>
+
+<h1>WELCOME TO DENNY'S</h1>
+<p>Lonely as a whisper on a star chase, stare at the moon all day <br>★</br> Bright are the stars that shine, dark is the night </p>
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li style="font-size:120%;"><a class="active" href="/index.html">HOME</a></li>
+  <li style="font-size:120%;"><a href="/ABOUT/index.html">ABOUT</a></li>
+  <li style="font-size:120%;"><a href="/Work Portfolio/index.html">WORK</a></li>
+  <li style="font-size:120%;"><a href="/Music.html">MUSIC</a></li>
+  <li style="font-size:120%;"><a href="/Contact/index.html">CONTACT</a></li>
+</ul>
+
+<div class="footer">
+  <p><img src="Cat.gif" alt="DANCING CATS" style="width:48px;height:48px;"></p>
+<p> THANK YOU FOR COMING TO DENNY'S</p>
+</div>
+
 </body>
+</html>
+
+</style>
+</head>
+</html>
