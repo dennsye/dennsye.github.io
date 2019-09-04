@@ -2,7 +2,6 @@
 <html>
 <head>
 <style>
-
 /* The coding for the header allows it to look the way I want it with the color and symbols I wanted*/
 .header {
   background-color: #8FBC8F;
@@ -10,14 +9,12 @@
   padding: 20px;
   color: white;
 }
-
 /*This makes the background for all of my pages on the website to have the pink color*/  
 }
 
 body {
 	background-color: MistyRose;
 }
-
 /* This coding makes my navigation bar green*/
 ul {
   list-style-type: none;
@@ -27,12 +24,10 @@ ul {
   background-color: #8FBC8F;
   text-align: center;
 }
-
 /* This makes the naviation bar aligned to the left */
 li {
   float: left;
 }
-
 /* This makes the text in the navigation bar have the white text with the font I wanted*/
 li a {
   display: block;
@@ -42,12 +37,10 @@ li a {
   text-decoration: none;
    font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
-
 /* This makes the buttons turn Rosy Brown whenever I hover over the options on my navigation bar*/
 li a:hover {
   background-color: #bc8f8f;
 }
-
 /* This makes the text brown with the font I want*/
 h1 {
   color: RosyBrown;
