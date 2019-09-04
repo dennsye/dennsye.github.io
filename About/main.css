@@ -1,0 +1,40 @@
+<style>
+body {
+  margin: 0;
+}
+/* Style the header */
+.header {
+  background-color: #8FBC8F;
+  padding: 0.000125px;
+  color: white;
+  text-align: center;
+}
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 15px;
+  height: 350;/* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 65%;
+  float: center;
+  padding: 13px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: RosyBrown;
+}
+</style>
+</head>
