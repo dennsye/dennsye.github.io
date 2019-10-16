@@ -9,16 +9,6 @@
 body {
   margin: 0;
 }
-/* Style the header */
-.header {
-  background-color: #8FBC8F;
-  padding: 0.000125px;
-  color: white;
-  text-align: center;
-}
-  h2 {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
 body {
   margin: 0;
 }
@@ -42,7 +32,24 @@ h4 {
   color: RosyBrown;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+* {
+  box-sizing: border-box;
+}
 
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
 <body>
@@ -74,18 +81,33 @@ h4 {
 
 		<center><h2> PASSWORD GENERATOR PROJECT </h2></center>
 		
-<center><iframe src="https://docs.google.com/document/d/e/2PACX-1vSAJFzE5ZDV9qWi4P9DjLxEENZn_e93O_LGZ1cbbShXS6PTGfatfw2l-Q6ybZlVPpU1AcMj9qrlJIEl/pub?embedded=true"; width="600" height="400"></iframe></center>
+<center></center>
 <hr width="50%"> 
 		
 		<center><h2> BLOWN TO BITS PRESENTATION </h2></center>
 	
-<center><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQzvNOLbplXIobLP1PUOhPNazDUERSk6Nb2-j7fFWp57dP3MXHHGtgprF-unR_ygNla5l0uXTQBIXIs/embed?start=false&loop=false&delayms=5000" frameborder="0" width="600" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></center>
+<center></center>
 <hr width="50%">
 		
 		<center><h2> SCRATCH GAME PROJECT </h2></center>
 
 <center><iframe src="https://scratch.mit.edu/projects/330199767/embed" allowtransparency="true" width="600" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe></center>
- 
+
+<div class="row">
+  <div class="column" style="background-color:#8FBC8F;">
+    <h2>PASSWORD GENERATOR PROJECT</h2>
+    <p><iframe src="https://docs.google.com/document/d/e/2PACX-1vSAJFzE5ZDV9qWi4P9DjLxEENZn_e93O_LGZ1cbbShXS6PTGfatfw2l-Q6ybZlVPpU1AcMj9qrlJIEl/pub?embedded=true"; width="600" height="400"></iframe></p>
+  </div>
+
+  <div class="column" style="background-color:#8FBC8F;">
+    <h2>BLOWN TO BITS PRESENTATION</h2>
+    <p><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQzvNOLbplXIobLP1PUOhPNazDUERSk6Nb2-j7fFWp57dP3MXHHGtgprF-unR_ygNla5l0uXTQBIXIs/embed?start=false&loop=false&delayms=5000" frameborder="0" width="600" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+  </div>
+
+<div class="column" style="background-color:#8FBC8F">
+	<h2>SCRATCH GAME PROJECT</h2>
+	<p><iframe src="https://scratch.mit.edu/projects/330199767/embed" allowtransparency="true" width="600" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe></p>
+</div>
 
 </body>
 </html>
