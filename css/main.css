@@ -28,7 +28,7 @@ ul {
 
 /* This makes the naviation bar aligned to the left */
 li {
-  float: left;
+  float: center;
 }
 
 /* This makes the text in the navigation bar have the white text with the font I wanted*/
